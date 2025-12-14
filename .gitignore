@@ -1,0 +1,15 @@
+# Security
+config.py
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# PyCharm settings
+.idea/
+
+# Data (Optional: Don't upload large CSVs if they can be generated)
+transactions.csv
+synthetic_fraud_graph_data.csv
+graph_features_final.csv
