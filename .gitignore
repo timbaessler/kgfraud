@@ -6,10 +6,13 @@ venv/
 __pycache__/
 *.pyc
 
-# PyCharm settings
-.idea/
+# Alle Verzeichnisse ignorieren (rekursiv)
+**/
 
-# Data (Optional: Don't upload large CSVs if they can be generated)
-transactions.csv
-synthetic_fraud_graph_data.csv
-graph_features_final.csv
+
+
+# Data files (generally exclude)
+*.csv
+*.json
+*.png
+*.zip
